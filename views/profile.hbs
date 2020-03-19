@@ -1,0 +1,30 @@
+<h1>Profile Information</h1>
+<button class="dash" onclick="backDash()">DashBoard</button> 
+<button class="logout" onclick="logOut()">LogOut</button> 
+<br>
+<div class="card">
+<img src="" id="userImg" alt="myPicture" width="70%">
+<br>
+<div id="info">
+<p class="name" id="usrName"></p><br><br>
+<label> Email-ID :</label>
+<div id="emai">
+<p class="inf" id="usrMail"></p>
+</div>
+<button class="edit" onclick="emailEdit()">Edit</button>
+<button class="save" onClick="emailSave()">Save</button>
+<br><br>
+<label>Contact Number :</label>
+<p class="inf" id="usrPhone"></p><br>
+<label>Password :</label>
+<div id="pass">
+<p class="inf" id="usrPas"></p>
+</div>
+<button class="edit" onclick="pasEdit()">Edit</button>
+<button class="save" onClick="pasSave()">Save</button>
+<div>
+</div>
+<script src="./javascripts/website.js"></script>
+<script>
+profileInfo('{{user}}');
+</script>

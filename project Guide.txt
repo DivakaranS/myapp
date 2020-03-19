@@ -1,0 +1,60 @@
+
+
+--first project start run the command--
+	
+	npm start
+	server connected on 3000;
+
+
+--second step go to the browser---
+
+enter the http://localhost:3000/web
+
+
+---third step login and registe page---
+
+register form fillup and sigin 
+after you can go to login page 
+
+
+
+----forth step -----
+list of images shown in user dashborad 
+ 
+once You login the user dashborad page will appear there three option
+
+* user name link (this link open user account information)
+* change profile picture
+* add new images 
+* logout  
+
+*/some time list images not shown in dashborad once shutdown the server restart the server*/
+*/reload the dashboard page*/
+
+
+----fifth setp----
+
+user account page will change some option
+
+
+* user email id 
+* user password 
+* logout option
+* dashborad option
+
+
+///*** important ***///
+
+if adding images size should 80kb below.
+
+
+
+
+
+
+
+
+
+
+
+
